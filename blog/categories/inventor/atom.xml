@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Sheldon's Blog]]></title>
-  <link href="http://sheld0n.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Inventor | Sheldon's Blog]]></title>
+  <link href="http://sheld0n.github.io/blog/categories/inventor/atom.xml" rel="self"/>
   <link href="http://sheld0n.github.io/"/>
   <updated>2014-01-19T23:58:19+08:00</updated>
   <id>http://sheld0n.github.io/</id>
@@ -29,15 +29,6 @@
 <li>Joined in the kick off hangout and introduced myself to the group</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My First Octopress Blog]]></title>
-    <link href="http://sheld0n.github.io/blog/2014/01/19/my-first-octopress-blog/"/>
-    <updated>2014-01-19T21:54:59+08:00</updated>
-    <id>http://sheld0n.github.io/blog/2014/01/19/my-first-octopress-blog</id>
-    <content type="html"><![CDATA[<p>Hello Octopress!</p>
 ]]></content>
   </entry>
   
