@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Inventor | Sheldon's Blog]]></title>
   <link href="http://sheld0n.github.io/blog/categories/inventor/atom.xml" rel="self"/>
   <link href="http://sheld0n.github.io/"/>
-  <updated>2014-01-19T23:58:19+08:00</updated>
+  <updated>2014-01-27T22:42:40+08:00</updated>
   <id>http://sheld0n.github.io/</id>
   <author>
     <name><![CDATA[Sheldon Lee]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Entry for Week 2]]></title>
+    <link href="http://sheld0n.github.io/blog/2014/01/27/entry-for-week-2/"/>
+    <updated>2014-01-27T20:38:06+08:00</updated>
+    <id>http://sheld0n.github.io/blog/2014/01/27/entry-for-week-2</id>
+    <content type="html"><![CDATA[<h3>What I&rsquo;ve done this week</h3>
+
+<ul>
+<li>Studied the App Inventor development workflow</li>
+<li>Forked and cloned the App Inventor sources, and run my own server locally(On Ubuntu 13.10)</li>
+<li>Completed assignment 1: the App Inventor Stock Quotes Tutorial and Food Explorer Tutorial using the local version of App Inventor</li>
+<li>Setted up Eclipse for App Inventor development</li>
+<li>Completed assignment 2: modify the Camera components to allow user to toggle the camera light</li>
+</ul>
+
+
+<h3>Problems I&rsquo;ve encountered</h3>
+
+<p>This week things were going just fine except a little trouble I&rsquo;ve had when I was trying to build the App Inventor on my laptop. I&rsquo;m using a 64bit Ubuntu 13.10 and JDK. Thus I had to install ia32-libs for AAPT to work. However, ia32-libs is no more available in 13.10. At last I found a solution on Stack Overflow(<a href="http://stackoverflow.com/questions/19523502/androids-aapt-not-running-on-64-bit-ubuntu-13-10-no-ia32-libs-how-can-i-fix">http://stackoverflow.com/questions/19523502/androids-aapt-not-running-on-64-bit-ubuntu-13-10-no-ia32-libs-how-can-i-fix</a>). Instead of adding 32bit compatibility, I just installed libc6-i386, lib32stdc++6, lib32gcc1, lib32ncurses5 and lib32z1. Then I built the source again and 2 minutes later the message BUILD SUCCESSFUL showed up.</p>
+
+<h3>Plan for the next week</h3>
+
+<ul>
+<li>Build a weather forecast application to demo at the hackathon. The app may use Weather Underground API or WeatherBug API.</li>
+<li>Continue to study the weeks 3-5 courses.</li>
+<li>Make a choice between Components and Designer.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Entry for Week 1]]></title>
