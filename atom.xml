@@ -4,7 +4,7 @@
   <title><![CDATA[Sheldon's Blog]]></title>
   <link href="http://sheld0n.github.io/atom.xml" rel="self"/>
   <link href="http://sheld0n.github.io/"/>
-  <updated>2014-01-27T22:42:40+08:00</updated>
+  <updated>2014-02-03T23:26:37+08:00</updated>
   <id>http://sheld0n.github.io/</id>
   <author>
     <name><![CDATA[Sheldon Lee]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Entry for Week 3]]></title>
+    <link href="http://sheld0n.github.io/blog/2014/02/03/entry-for-week3/"/>
+    <updated>2014-02-03T22:18:08+08:00</updated>
+    <id>http://sheld0n.github.io/blog/2014/02/03/entry-for-week3</id>
+    <content type="html"><![CDATA[<h3>What I&rsquo;ve done this week</h3>
+
+<ul>
+<li>Went through week 3 and week 4 cources</li>
+<li>Setted up the eclipse development environment</li>
+<li>Applied for a Weather Underground API key</li>
+<li>Studied the Weather Underground API</li>
+<li>Decided to work on the Components project after I&rsquo;ve gained a general sense of the three parts of App Inventor, but I still show some interests in the Designer at present.</li>
+<li>Been working on my Weather Hub app that will be demoing at the hackathon.It provides the users with 10-day weather forecast according to the location given by the users. The app uses the Weather Underground API to get weather data.</li>
+</ul>
+
+
+<h3>Problems that I&rsquo;ve encounterd</h3>
+
+<ul>
+<li>No big problems so far.</li>
+</ul>
+
+
+<h3>Plan for the next week</h3>
+
+<ul>
+<li>Finish the Weather Hub app by Tuesday.</li>
+<li>Go on learning week 5.</li>
+<li>Be ready for the hackathon.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Entry for Week 2]]></title>
