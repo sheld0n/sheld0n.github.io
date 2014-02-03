@@ -4,7 +4,7 @@
   <title><![CDATA[Sheldon's Blog]]></title>
   <link href="http://sheld0n.github.io/atom.xml" rel="self"/>
   <link href="http://sheld0n.github.io/"/>
-  <updated>2014-02-03T23:26:37+08:00</updated>
+  <updated>2014-02-03T23:28:34+08:00</updated>
   <id>http://sheld0n.github.io/</id>
   <author>
     <name><![CDATA[Sheldon Lee]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<h3>What I&rsquo;ve done this week</h3>
 
 <ul>
-<li>Went through week 3 and week 4 cources</li>
+<li>Went through week 3 and week 4 courses</li>
 <li>Setted up the eclipse development environment</li>
 <li>Applied for a Weather Underground API key</li>
 <li>Studied the Weather Underground API</li>
