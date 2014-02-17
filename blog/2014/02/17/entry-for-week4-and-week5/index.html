@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Entry for Week 2 - Sheldon's Blog</title>
+  <title>Entry for Week4 &amp; Week5 - Sheldon's Blog</title>
   <meta name="author" content="Sheldon Lee">
 
   
-  <meta name="description" content="What I&rsquo;ve done this week Studied the App Inventor development workflow
-Forked and cloned the App Inventor sources, and run my own server &hellip;">
+  <meta name="description" content="I&rsquo;m really sorry I should have done this last week, but after the code sprint I was in San Francisco traveling and shopping&hellip;and it took &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ Forked and cloned the App Inventor sources, and run my own server &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://sheld0n.github.io/blog/2014/01/27/entry-for-week-2">
+  <link rel="canonical" href="http://sheld0n.github.io/blog/2014/02/17/entry-for-week4-and-week5">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Sheldon's Blog" type="application/atom+xml">
@@ -69,7 +68,7 @@ Forked and cloned the App Inventor sources, and run my own server &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Entry for Week 2</h1>
+      <h1 class="entry-title">Entry for Week4 &amp; Week5</h1>
     
     
       <p class="meta">
@@ -85,36 +84,40 @@ Forked and cloned the App Inventor sources, and run my own server &hellip;">
   
 
 
-<time datetime="2014-01-27T20:38:06+08:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time>
+<time datetime="2014-02-17T19:09:16+08:00" pubdate data-updated="true">Feb 17<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h3>What I&rsquo;ve done this week</h3>
+<div class="entry-content"><p>I&rsquo;m really sorry I should have done this last week, but after the code sprint I was in San Francisco traveling and shopping&hellip;and it took me another 3 days to go home.</p>
+
+<h3>What I&rsquo;ve done</h3>
+
+<p>Join in the 2-day code sprint at Facebook:</p>
 
 <ul>
-<li>Studied the App Inventor development workflow</li>
-<li>Forked and cloned the App Inventor sources, and run my own server locally(On Ubuntu 13.10)</li>
-<li>Completed assignment 1: the App Inventor Stock Quotes Tutorial and Food Explorer Tutorial using the local version of App Inventor</li>
-<li>Setted up Eclipse for App Inventor development</li>
-<li>Completed assignment 2: modify the Camera components to allow user to toggle the camera light</li>
+<li>Meeted mentor and other team member, getting to know each other</li>
+<li>We made a quick brainstorming to think about how to improve the App Inventor. After the discussion there were 9 projects left and I choosed to work on the UI project which is to make the size of the tabs on the AI2 design page adjust automatically to fit the browser window. Yuanyin and I decided to collaborate.</li>
+<li>Create a new branch which is named feature-auto_resized_tabs and start to work.</li>
+<li>It took 2 hours for us to find out the solution, but we spent the rest of the 2 days to code, compile and fix bugs one after another.</li>
+<li>When the code sprint was drawing to a close, I found a UI bug and report it to jose.</li>
+<li>Completed the project, and sent a pull requesest. <a href="https://docs.google.com/document/d/1O5KTMK3A6y5rMMzg8rxZtMIUO8FCwFFkNpLjjlBUyEM/edit">Here</a> is the document of this project.</li>
 </ul>
 
 
-<h3>Problems I&rsquo;ve encountered</h3>
-
-<p>This week things were going just fine except a little trouble I&rsquo;ve had when I was trying to build the App Inventor on my laptop. I&rsquo;m using a 64bit Ubuntu 13.10 and JDK. Thus I had to install ia32-libs for AAPT to work. However, ia32-libs is no more available in 13.10. At last I found a solution on Stack Overflow(<a href="http://stackoverflow.com/questions/19523502/androids-aapt-not-running-on-64-bit-ubuntu-13-10-no-ia32-libs-how-can-i-fix">http://stackoverflow.com/questions/19523502/androids-aapt-not-running-on-64-bit-ubuntu-13-10-no-ia32-libs-how-can-i-fix</a>). Instead of adding 32bit compatibility, I just installed libc6-i386, lib32stdc++6, lib32gcc1, lib32ncurses5 and lib32z1. Then I built the source again and 2 minutes later the message BUILD SUCCESSFUL showed up.</p>
-
-<h3>Plan for the next week</h3>
+<h3>Problems</h3>
 
 <ul>
-<li>Build a weather forecast application to demo at the hackathon. The app may use Weather Underground API or WeatherBug API.</li>
-<li>Continue to study the weeks 3-5 courses.</li>
-<li>Make a choice between Components and Designer.</li>
+<li>We&rsquo;ve met several bugs when completing the project. To fix those bugs  is not difficult but time-consuming, because if I want to test I had to compile and run the AI2 local server again and again.</li>
+<li>I must keep improve my poor English&hellip;</li>
 </ul>
 
+
+<h3>Plan for next few weeks</h3>
+
+<p>Yuanyin and I want to keep working on improving the UI. We think that AI2 could provide users with better experience. One possible amelioration is to make the AI2 design page more customizable. For example, users could drag and drop the tabs to realign them, and each pair of tab has a splitter between them that the user can drag to resize them. The possible solution is to use the GWT SplitLayoutPanel widget and gwt-dnd(Drag-and-Drop Library for Google-Web-Toolkit). This won&rsquo;t be easy, but worth a try.</p>
 </div>
 
 
@@ -137,21 +140,15 @@ Forked and cloned the App Inventor sources, and run my own server &hellip;">
   
 
 
-<time datetime="2014-01-27T20:38:06+08:00" pubdate data-updated="true">Jan 27<span>th</span>, 2014</time>
+<time datetime="2014-02-17T19:09:16+08:00" pubdate data-updated="true">Feb 17<span>th</span>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/app/'>App</a>, <a class='category' href='/blog/categories/inventor/'>Inventor</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://sheld0n.github.io/blog/2014/01/27/entry-for-week-2/" data-via="" data-counturl="http://sheld0n.github.io/blog/2014/01/27/entry-for-week-2/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://sheld0n.github.io/blog/2014/02/17/entry-for-week4-and-week5/" data-via="" data-counturl="http://sheld0n.github.io/blog/2014/02/17/entry-for-week4-and-week5/" >Tweet</a>
   
   
   
@@ -160,10 +157,8 @@ Forked and cloned the App Inventor sources, and run my own server &hellip;">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/01/19/entry-for-week-1/" title="Previous Post: Entry for week 1">&laquo; Entry for week 1</a>
+        <a class="basic-alignment left" href="/blog/2014/02/03/entry-for-week3/" title="Previous Post: Entry for Week 3">&laquo; Entry for Week 3</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/03/entry-for-week3/" title="Next Post: Entry for Week 3">Entry for Week 3 &raquo;</a>
       
     </p>
   </footer>

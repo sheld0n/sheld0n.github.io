@@ -4,7 +4,7 @@
   <title><![CDATA[Sheldon's Blog]]></title>
   <link href="http://sheld0n.github.io/atom.xml" rel="self"/>
   <link href="http://sheld0n.github.io/"/>
-  <updated>2014-02-03T23:28:34+08:00</updated>
+  <updated>2014-02-17T21:15:05+08:00</updated>
   <id>http://sheld0n.github.io/</id>
   <author>
     <name><![CDATA[Sheldon Lee]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Entry for Week4 &amp; Week5]]></title>
+    <link href="http://sheld0n.github.io/blog/2014/02/17/entry-for-week4-and-week5/"/>
+    <updated>2014-02-17T19:09:16+08:00</updated>
+    <id>http://sheld0n.github.io/blog/2014/02/17/entry-for-week4-and-week5</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m really sorry I should have done this last week, but after the code sprint I was in San Francisco traveling and shopping&hellip;and it took me another 3 days to go home.</p>
+
+<h3>What I&rsquo;ve done</h3>
+
+<p>Join in the 2-day code sprint at Facebook:</p>
+
+<ul>
+<li>Meeted mentor and other team member, getting to know each other</li>
+<li>We made a quick brainstorming to think about how to improve the App Inventor. After the discussion there were 9 projects left and I choosed to work on the UI project which is to make the size of the tabs on the AI2 design page adjust automatically to fit the browser window. Yuanyin and I decided to collaborate.</li>
+<li>Create a new branch which is named feature-auto_resized_tabs and start to work.</li>
+<li>It took 2 hours for us to find out the solution, but we spent the rest of the 2 days to code, compile and fix bugs one after another.</li>
+<li>When the code sprint was drawing to a close, I found a UI bug and report it to jose.</li>
+<li>Completed the project, and sent a pull requesest. <a href="https://docs.google.com/document/d/1O5KTMK3A6y5rMMzg8rxZtMIUO8FCwFFkNpLjjlBUyEM/edit">Here</a> is the document of this project.</li>
+</ul>
+
+
+<h3>Problems</h3>
+
+<ul>
+<li>We&rsquo;ve met several bugs when completing the project. To fix those bugs  is not difficult but time-consuming, because if I want to test I had to compile and run the AI2 local server again and again.</li>
+<li>I must keep improve my poor English&hellip;</li>
+</ul>
+
+
+<h3>Plan for next few weeks</h3>
+
+<p>Yuanyin and I want to keep working on improving the UI. We think that AI2 could provide users with better experience. One possible amelioration is to make the AI2 design page more customizable. For example, users could drag and drop the tabs to realign them, and each pair of tab has a splitter between them that the user can drag to resize them. The possible solution is to use the GWT SplitLayoutPanel widget and gwt-dnd(Drag-and-Drop Library for Google-Web-Toolkit). This won&rsquo;t be easy, but worth a try.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Entry for Week 3]]></title>
