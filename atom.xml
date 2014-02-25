@@ -4,7 +4,7 @@
   <title><![CDATA[Sheldon's Blog]]></title>
   <link href="http://sheld0n.github.io/atom.xml" rel="self"/>
   <link href="http://sheld0n.github.io/"/>
-  <updated>2014-02-17T21:58:54+08:00</updated>
+  <updated>2014-02-25T19:53:38+08:00</updated>
   <id>http://sheld0n.github.io/</id>
   <author>
     <name><![CDATA[Sheldon Lee]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Entry for Week 6]]></title>
+    <link href="http://sheld0n.github.io/blog/2014/02/25/entry-for-week-6/"/>
+    <updated>2014-02-25T19:15:38+08:00</updated>
+    <id>http://sheld0n.github.io/blog/2014/02/25/entry-for-week-6</id>
+    <content type="html"><![CDATA[<h3>What I&rsquo;ve done</h3>
+
+<ul>
+<li>Kept learning more about GWT. Installed the GWT SDK and seted up Eclipse and worked through several tutorials.</li>
+<li>Readed the source code of AI2 Designer client part.</li>
+</ul>
+
+
+<h3>Problems</h3>
+
+<p>The main problem I&rsquo;m facing now is that the way that AI2 uses GWT is quite out of date. So many things have changed. At first I thought I could just modify a few locations to apply the new GWT widgets, but it seems that I have to make big changes.</p>
+
+<h3>Plan for next week</h3>
+
+<p>Try to do some refactoring. The first thing to do is to update the current APIs. Then I think I modify the Ode.java and other source files to replace some old widgets by newer ones. If that is too hard, I&rsquo;ll make an attempt to rewrite some components.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Entry for Week4 &amp; Week5]]></title>
